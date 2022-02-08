@@ -1,0 +1,29 @@
+Welcome:
+  tabTitle: "Välkommen"
+  subtitle: {
+    text1: "En hackningsbar text-redigerare för det 21:"
+    superscript: "a"
+    text2: " århundradet"
+  }
+  help: {
+    forHelpVisit: "Vänligen besök för hjälp"
+    atomDocs: {
+      text1: "Atom- "
+      link: "dokumentationen"
+      text2: " för guider och API-referensen."
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomForum: {
+      text1: "Atom-forumet vid "
+      link: "discuss.atom.io"
+      text2: ""   # optional
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomOrg: {
+      text1: "Atom "
+      link: "org"
+      text2: ". Det här är var alla GitHub-skapade Atom-paket kan hittas."
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+  }
+  showWelcomeGuide: "Visa välkomstguiden när Atom öppnas"
