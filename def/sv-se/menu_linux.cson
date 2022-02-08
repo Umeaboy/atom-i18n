@@ -1,0 +1,475 @@
+Menu:
+  "&File":
+    value: "&Fil"
+    submenu:
+      "New &Window":
+        value: "Nytt &fönster"
+      "&New File":
+        value: "&Ny fil"
+      "&Open File…":
+        value: "&Öppna fil…"
+      "Open Folder…":
+        value: "Öppna mapp…"
+      "Add Project Folder…":
+        value: "Lägg till projektmapp…"
+      "Reopen Project":
+        value: "Öppna projekt igen"
+        submenu:
+          "Clear Project History":
+            value: "Rensa projekthistorik"
+      "Reopen Last &Item":
+        value: "Öppna senaste &föremålet igen"
+      "&Save":
+        value: "&Spara"
+      "Save &As…":
+        value: "Save &som…"
+      "Save A&ll":
+        value: "Save a&lla"
+      "&Close Tab":
+        value: "&Stäng flik"
+      "Close &Pane":
+        value: "Close &Pane"
+      "Clos&e Window":
+        value: "Stän&g fönster"
+      "Quit":
+        value: "Avsluta"
+      "Close All Tabs":
+        value: "Stäng ner alla flikar"
+  "&Edit":
+    value: "&Redigera"
+    submenu:
+      "&Undo":
+        value: "&Ångra"
+      "&Redo":
+        value: "&Gör om"
+      "&Cut":
+        value: "&Klipp ut"
+      "C&opy":
+        value: "K&opiera"
+      "Copy Pat&h":
+        value: "Kopiera genvä&g"
+      "&Paste":
+        value: "&Klistra in"
+      "Select &All":
+        value: "Välj &alla"
+      "&Toggle Comments":
+        value: "&Toggle Comments"
+      Lines:
+        value: "Rader"
+        submenu:
+          "&Indent":
+            value: "&Indrag"
+          "&Outdent":
+            value: "&Outdent"
+          "&Auto Indent":
+            value: "&Automatiskt indrag"
+          "Move Line &Up":
+            value: "Move Line &Up"
+          "Move Line &Down":
+            value: "Move Line &Down"
+          "Du&plicate Lines":
+            value: "Du&bbla rader"
+          "D&elete Line":
+            value: "T&a bort rad"
+          "&Join Lines":
+            value: "&Sammanfoga rader"
+      Columns:
+        value: "Kolumner"
+        submenu:
+          "Move Selection &Left":
+            value: "Move Selection &Left"
+          "Move Selection &Right":
+            value: "Move Selection &Right"
+      Text:
+        value: "Text"
+        submenu:
+          "&Upper Case":
+            value: "&Stor bokstav"
+          "&Lower Case":
+            value: "&Liten bokstav"
+          "Delete to End of &Word":
+            value: "Delete to End of &Word"
+          "Delete to Previous Word Boundary":
+            value: "Delete to Previous Word Boundary"
+          "Delete to Next Word Boundary":
+            value: "Delete to Next Word Boundary"
+          "&Delete Line":
+            value: "&Ta bort rad"
+          "&Transpose":
+            value: "&Transpose"
+      Folding:
+        value: "Folding"
+        submenu:
+          "&Fold":
+            value: "&Fold"
+          "&Unfold":
+            value: "&Unfold"
+          "Fol&d All":
+            value: "Fol&d All"
+          "Unfold &All":
+            value: "Unfold &All"
+          "Fold Level 1":
+            value: "Fold Level 1"
+          "Fold Level 2":
+            value: "Fold Level 2"
+          "Fold Level 3":
+            value: "Fold Level 3"
+          "Fold Level 4":
+            value: "Fold Level 4"
+          "Fold Level 5":
+            value: "Fold Level 5"
+          "Fold Level 6":
+            value: "Fold Level 6"
+          "Fold Level 7":
+            value: "Fold Level 7"
+          "Fold Level 8":
+            value: "Fold Level 8"
+          "Fold Level 9":
+            value: "Fold Level 9"
+      "&Preferences":
+        value: "&Egenskaper"
+      "Config…":
+        value: "Konfig…"
+      "Init Script…":
+        value: "Init-skript…"
+      "Keymap…":
+        value: "Keymap…"
+      "Snippets…":
+        value: "Snippets…"
+      "Stylesheet…":
+        value: "Stilmall…"
+      "Reflow Selection":
+        value: "Reflow Selection"
+      Bookmark:
+        value: "Bokmärk"
+        submenu:
+          "View All":
+            value: "Visa alla"
+          "Toggle Bookmark":
+            value: "Toggle Bookmark"
+          "Jump to Next Bookmark":
+            value: "Hoppa till nästa bokmärke"
+          "Jump to Previous Bookmark":
+            value: "Hoppa till föregående bokmärke"
+      "Select Encoding":
+        value: "Select Encoding"
+      "Go to Line":
+        value: "Gå till rad"
+      "Select Grammar":
+        value: "Välj grammatik"
+  "&View":
+    value: "&Vy"
+    submenu:
+      "Toggle &Full Screen":
+        value: "Toggle &Full Screen"
+      "Toggle Menu Bar":
+        value: "Toggle Menu Bar"
+      Panes:
+        value: "Rutor"
+        submenu:
+          "Split Up":
+            value: "Dela upp"
+          "Split Down":
+            value: "Split Down"
+          "Split Left":
+            value: "Split Left"
+          "Split Right":
+            value: "Split Right"
+          "Focus Next Pane":
+            value: "Focus Next Pane"
+          "Focus Previous Pane":
+            value: "Focus Previous Pane"
+          "Focus Pane Above":
+            value: "Focus Pane Above"
+          "Focus Pane Below":
+            value: "Focus Pane Below"
+          "Focus Pane On Left":
+            value: "Focus Pane On Left"
+          "Focus Pane On Right":
+            value: "Focus Pane On Right"
+          "Close Pane":
+            value: "Stäng ruta"
+      Developer:
+        value: "Utvecklare"
+        submenu:
+          "Open In &Dev Mode…":
+            value: "Öppna i &Utvecklingsläge…"
+          "&Reload Window":
+            value: "&Ladda om fönster"
+          "Run Package &Specs":
+            value: "Run Package &Specs"
+          "Run &Benchmarks":
+            value: "Run &Benchmarks"
+          "Toggle Developer &Tools":
+            value: "Toggle Developer &Tools"
+      "&Increase Font Size":
+        value: "&Öka teckenstorleken"
+      "&Decrease Font Size":
+        value: "&Minska typsnitt-storleken"
+      "Re&set Font Size":
+        value: "Åt&erställ typsnitt-storleken"
+      "Toggle Soft &Wrap":
+        value: "Toggle Soft &Wrap"
+      "Toggle Command Palette":
+        value: "Toggle Command Palette"
+      # added the following menus, for "Packages"->"GitHub"
+      "Toggle Git Tab":
+        value: "Toggle Git Tab"
+      "Toggle GitHub Tab":
+        value: "Toggle GitHub Tab"
+      "Open Reviews Tab":
+        value: "Open Reviews Tab"
+      #
+      "Toggle Tree View":
+        value: "Toggle Tree View"
+  "&Selection":
+    value: "&Val"
+    submenu:
+      "Add Selection &Above":
+        value: "Add Selection &Above"
+      "Add Selection &Below":
+        value: "Add Selection &Below"
+      "S&plit into Lines":
+        value: "S&plit into Lines"
+      "Single Selection":
+        value: "Single Selection"
+      "Select to &Top":
+        value: "Select to &Top"
+      "Select to Botto&m":
+        value: "Select to Botto&m"
+      "Select &Line":
+        value: "Välj &rad"
+      "Select &Word":
+        value: "Välj &ord"
+      "Select to Beginning of W&ord":
+        value: "Select to Beginning of W&ord"
+      "Select to Beginning of L&ine":
+        value: "Select to Beginning of L&ine"
+      "Select to First &Character of Line":
+        value: "Select to First &Character of Line"
+      "Select to End of Wor&d":
+        value: "Välj till slutet av ord&et"
+      "Select to End of Lin&e":
+        value: "Välj till slutet av rad&en"
+      "Select Inside Brackets":
+        value: "Select Inside Brackets"
+  "F&ind":
+    value: "H&itta"
+    submenu:
+      "Find in Buffer":
+        value: "Hitta i buffert"
+      "Replace in Buffer":
+        value: "Ersätt i buffert"
+      "Select Next":
+        value: "Välj nästa"
+      "Select All":
+        value: "Välj alla"
+      "Toggle Find in Buffer":
+        value: "Toggle Find in Buffer"
+      "Find in Project":
+        value: "Hitta i projektet"
+      "Toggle Find in Project":
+        value: "Toggle Find in Project"
+      "Find All":
+        value: "Hitta alla"
+      "Find Next":
+        value: "Hitta nästa"
+      "Find Previous":
+        value: "Hitta föregående"
+      "Replace Next":
+        value: "Ersätt nästa"
+      "Replace All":
+        value: "Ersätt alla"
+      "Clear History":
+        value: "Rensa historik"
+      "Find Buffer":
+        value: "Hitta buffert"
+      "Find File":
+        value: "Hitta fil"
+      "Find Modified File":
+        value: "Hitta modifierad fil"
+  "&Packages":
+    value: "&Paket"
+    submenu:
+      "Bracket Matcher":
+        value: "Bracket Matcher"
+        submenu:
+          "Go To Matching Bracket":
+            value: "Go To Matching Bracket"
+          "Select Inside Brackets":
+            value: "Select Inside Brackets"
+          "Remove Brackets From Selection":
+            value: "Remove Brackets From Selection"
+          "Close Current Tag":
+            value: "Stäng nuvarande tagg"
+          "Remove Matching Brackets":
+            value: "Ta bort matchande parenteser"
+          "Select Matching Brackets":
+            value: "Välj matchande parenteser"
+      "Command Palette":
+        value: "Command Palette"
+        submenu:
+          "Toggle":
+            value: "Växla"
+      "Dev Live Reload":
+        value: "Dev Live Reload"
+        submenu:
+          "Reload All Styles":
+            value: "Ladda om alla stilar"
+      "Git Diff":
+        value: "Git Diff"
+        submenu:
+          "Move to Next Diff":
+            value: "Flytta till nästa Diff"
+          "Move to Previous Diff":
+            value: "Flytta till föregående Diff"
+          "Toggle Diff List":
+            value: "Toggle Diff List"
+      "GitHub":
+        value: "GitHub"
+        submenu:
+          "Toggle Git Tab":
+            value: "Toggle Git Tab"
+          "Toggle GitHub Tab":
+            value: "Toggle GitHub Tab"
+          "Open Reviews Tab":
+            value: "Open Reviews Tab"
+      "Keybinding Resolver":
+        value: "Keybinding Resolver"
+        submenu:
+          "Toggle":
+            value: "Växla"
+          "Go To Matching Bracket":
+            value: "Gå till matchande parentes"
+      "Markdown Preview":
+        value: "Markdown Preview"
+        submenu:
+          "Toggle Preview":
+            value: "Toggle Preview"
+          "Toggle Break on Single Newline":
+            value: "Toggle Break on Single Newline"
+          "Toggle GitHub Style":
+            value: "Toggle GitHub Style"
+      "Open On GitHub":
+        value: "Öppna i GitHub"
+        submenu:
+          "Blame":
+            value: "Beskyll"
+          "Branch Compare":
+            value: "Branch Compare"
+          "Copy URL":
+            value: "Kopiera URL"
+          "File":
+            value: "Fil"
+          "File on Master":
+            value: "File on Master"
+          "History":
+            value: "Historik"
+          "Issues":
+            value: "Problem"
+          "Pull Requests":
+            value: "Pull Requests"
+          "Repository":
+            value: "Filförråd"
+      "Package Generator":
+        value: "Paketgenerator"
+        submenu:
+          "Generate Atom Package":
+            value: "Generera Atom-paket"
+          "Generate Atom Syntax Theme":
+            value: "Generate syntax-tema för Atom"
+      "Settings View":
+        value: "Settings View"
+        submenu:
+          "Open":
+            value: "Öppna"
+          "Show Keybindings":
+            value: "Visa nyckelbindningar"
+          "Install Packages/Themes":
+            value: "Installera paket/teman"
+          "Update Packages/Themes":
+            value: "Uppdatera paket/teman"
+          "Manage Packages":
+            value: "Hantera paket"
+          "Manage Themes":
+            value: "Hantera teman"
+      "Snippets":
+        value: "Snippets"
+        submenu:
+          "Expand":
+            value: "Expandera"
+          "Next Stop":
+            value: "Nästa stopp"
+          "Previous Stop":
+            value: "Föregående stopp"
+          "Available":
+            value: "Tillgängligt"
+      "Spell Check":
+        value: "Stavningskontroll"
+        submenu:
+          "Toggle":
+            value: "Växla"
+      "Styleguide":
+        value: "Stilguide"
+        submenu:
+          "Show":
+            value: "Visa"
+      "Symbols":
+        value: "Symboler"
+        submenu:
+          "File Symbols":
+            value: "Fil-symboler"
+          "Project Symbols":
+            value: "Fil-symboler"
+      "Timecop":
+        value: "Tidspolis"
+        submenu:
+          "Show":
+            value: "Visa"
+      "Tree View":
+        value: "Trädvy"
+        submenu:
+          "Focus":
+            value: "Fokusera"
+          "Toggle":
+            value: "Växla"
+          "Reveal Active File":
+            value: "Avslöja aktiv filReveal Active File"
+          "Toggle Tree Side":
+            value: "Toggle Tree Side"
+      "Whitespace":
+        value: "Blank"
+        submenu:
+          "Remove Trailing Whitespace":
+            value: "Remove Trailing Whitespace"
+          "Save With Trailing Whitespace":
+            value: "Save With Trailing Whitespace"
+          "Save Without Trailing Whitespace":
+            value: "Save Without Trailing Whitespace"
+          "Convert Tabs To Spaces":
+            value: "Convert Tabs To Spaces"
+          "Convert Spaces To Tabs":
+            value: "Convert Spaces To Tabs"
+          "Convert All Tabs To Spaces":
+            value: "Convert All Tabs To Spaces"
+  "&Help":
+    value: "&Hjälp"
+    submenu:
+      "View &Terms of Use":
+        value: "Visa &villkor för användning"
+      "View &License":
+        value: "Visa &licens"
+      "&Documentation":
+        value: "&Dokumentation"
+      "Frequently Asked Questions":
+        value: "Frekvent Ställda Frågor"
+      "Community Discussions":
+        value: "Community Discussions"
+      "Report Issue":
+        value: "Rapportera problem"
+      "Search Issues":
+        value: "Sök problem"
+      "About Atom":
+        value: "Om Atom"
+      "Welcome Guide":
+        value: "Välkomstguide"
